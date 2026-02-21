@@ -5,7 +5,12 @@
       "matchManagers": [
         "ci"
       ],
-      "commitMessagePrefix": "chore(ci):"
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "commitMessagePrefix": "chore(ci):",
+      "groupName": "CI dependencies (non-major)"
     }
   ]
 }
