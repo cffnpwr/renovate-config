@@ -1,6 +1,10 @@
-minimumReleaseAge: 4320 # 3 days
+minimumReleaseAge: 4320
+
 minimumReleaseAgeExclude:
-  - "@cffnpwr/*"
+  - '@cffnpwr/*'
+  # Temporary: allow ajv@6.14.0 before 72h release age (remove after 2026-02-23)
+  - ajv
+
 onlyBuiltDependencies:
   - better-sqlite3
   - core-js-pure
@@ -8,3 +12,9 @@ onlyBuiltDependencies:
   - esbuild
   - protobufjs
   - re2
+
+overrides:
+  ajv@<6.14.0: '>=6.14.0 <7'
+  fast-xml-parser@>=4.1.3 <5.3.6: '>=5.3.6 <6'
+  minimatch@<10.2.1: '>=10.2.1 <11'
+  tar@<7.5.8: '>=7.5.8 <8'
