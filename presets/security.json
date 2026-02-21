@@ -4,7 +4,7 @@
   "vulnerabilityAlerts": {
     "enabled": true,
     "groupName": null,
-    "schedule": "at any time",
+    "schedule": "* * * * *", // Every minute
     "dependencyDashboardApproval": false,
     "minimumReleaseAge": null,
     "rangeStrategy": "update-lockfile",
