@@ -1,0 +1,21 @@
+{
+  "name": "renovate-config",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "tsx ./scripts/test.ts"
+  },
+  "devDependencies": {
+    "@cffnpwr/eslint-config": "^1.1.2",
+    "@types/node": "^25.3.0",
+    "@typescript-eslint/parser": "^8.56.0",
+    "arktype": "^2.1.29",
+    "eslint": "^10.0.1",
+    "globals": "^17.3.0",
+    "re2": "^1.23.3",
+    "renovate": "^43.26.4",
+    "tsx": "^4.21.0"
+  }
+}
