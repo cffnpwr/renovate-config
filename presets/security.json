@@ -1,0 +1,16 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "minimumReleaseAge": "3 days",
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "groupName": null,
+    "schedule": "at any time",
+    "dependencyDashboardApproval": false,
+    "minimumReleaseAge": null,
+    "rangeStrategy": "update-lockfile",
+    "prCreation": "immediate",
+    "vulnerabilityFixStrategy": "lowest",
+    "semanticCommitType": "fix",
+    "commitMessageAction": ":lock: Fix"
+  }
+}

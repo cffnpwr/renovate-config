@@ -1,0 +1,21 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "timezone": "Asia/Tokyo",
+  "extends": [
+    "config:best-practices",
+    ":disableRateLimiting"
+  ],
+  "labels": [
+    "renovate",
+    "dependencies"
+  ],
+  "semanticCommits": "enabled",
+  "separateMajorMinor": true,
+  "separateMultipleMajor": true,
+  "rebaseWhen": "automerging",
+  "commitMessageAction": ":package: Update",
+  "lockFileMaintenance": {
+    "enabled": false,
+    "commitMessageAction": ":package: Lock file maintenance"
+  }
+}

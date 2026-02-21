@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "local>cffnpwr/renovate-config//presets/automerge.json",
+    "local>cffnpwr/renovate-config//presets/base.json",
+    "local>cffnpwr/renovate-config//presets/ci.json",
+    "local>cffnpwr/renovate-config//presets/nixFlake.json",
+    "local>cffnpwr/renovate-config//presets/security.json"
+  ]
+}
