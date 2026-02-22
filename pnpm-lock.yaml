@@ -15,8 +15,8 @@ importers:
   .:
     devDependencies:
       '@cffnpwr/eslint-config':
-        specifier: 1.1.2
-        version: 1.1.2(@typescript-eslint/eslint-plugin@8.56.0(@typescript-eslint/parser@8.56.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/parser@8.56.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(tailwindcss@4.1.18)(typescript@5.9.3)
+        specifier: 1.1.3
+        version: 1.1.3(@typescript-eslint/eslint-plugin@8.56.0(@typescript-eslint/parser@8.56.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/parser@8.56.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(tailwindcss@4.1.18)(typescript@5.9.3)
       '@types/node':
         specifier: 24.10.13
         version: 24.10.13
@@ -357,8 +357,8 @@ packages:
   '@cdktf/hcl2json@0.21.0':
     resolution: {integrity: sha512-cwX3i/mSJI/cRrtqwEPRfawB7pXgNioriSlkvou8LWiCrrcDe9ZtTbAbu8W1tEJQpe1pnX9VEgpzf/BbM7xF8Q==}
 
-  '@cffnpwr/eslint-config@1.1.2':
-    resolution: {integrity: sha512-NrPMb8e3YF8TA+KIMNf/kgXqGXPRQ2ve5GS5yst+TEeB1c4SeGNbsgigkUUwSm+l45ALnV5vFsSzwcKaDnFMgA==}
+  '@cffnpwr/eslint-config@1.1.3':
+    resolution: {integrity: sha512-lAcn/C4tD2p/fftNrYMy7n7ghpyJfd0gn/rGpfQJWxe0tSRvo+W0yHRg/mz0hMEkpyM0N1DsErjI40Qsj+eygQ==}
     peerDependencies:
       eslint: '>=9.18.0'
       typescript: '>=5.5.0'
@@ -5231,7 +5231,7 @@ snapshots:
     dependencies:
       fs-extra: 11.3.0
 
-  '@cffnpwr/eslint-config@1.1.2(@typescript-eslint/eslint-plugin@8.56.0(@typescript-eslint/parser@8.56.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/parser@8.56.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(tailwindcss@4.1.18)(typescript@5.9.3)':
+  '@cffnpwr/eslint-config@1.1.3(@typescript-eslint/eslint-plugin@8.56.0(@typescript-eslint/parser@8.56.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/parser@8.56.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(tailwindcss@4.1.18)(typescript@5.9.3)':
     dependencies:
       '@eslint/js': 9.39.2
       '@stylistic/eslint-plugin': 5.8.0(eslint@9.39.2(jiti@2.6.1))
