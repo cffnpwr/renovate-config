@@ -42,7 +42,7 @@
         "bun"
       ],
       "matchDepNames": [
-        "{npm:,jsr:,}@cffnpwr/**"
+        "{npm:,jsr:,}@cffnpwr/*"
       ],
       "groupName": null,
       "schedule": "* * * * *", // Every minute
