@@ -1,0 +1,42 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchManagers": [
+        "gomod"
+      ],
+      "matchDepNames": [
+        "go"
+      ],
+      "rangeStrategy": "bump",
+      "groupName": "Go version (minor)",
+      "automerge": false
+    },
+    {
+      "matchManagers": [
+        "mise"
+      ],
+      "matchDepNames": [
+        "go"
+      ],
+      "matchUpdateTypes": [
+        "patch"
+      ],
+      "groupName": "Go version (patch)",
+      "automerge": true
+    },
+    {
+      "matchManagers": [
+        "mise"
+      ],
+      "matchDepNames": [
+        "go"
+      ],
+      "matchUpdateTypes": [
+        "minor"
+      ],
+      "groupName": "Go version (minor)",
+      "automerge": false
+    }
+  ]
+}
