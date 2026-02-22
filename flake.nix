@@ -37,6 +37,8 @@
               nodejs_24
               pnpm_10
               python3
+              treefmt
+              yamlfmt
             ];
 
             shellHook = ''

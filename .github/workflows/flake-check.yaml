@@ -1,0 +1,22 @@
+name: Nix flake check
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "**/*.nix"
+      - "**/flake.nix"
+      - "**/flake.lock"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions: {}
+
+jobs:
+  flake-check:
+    uses: cffnpwr/actions/.github/workflows/flake-check.yaml@7664d279a8733dfc9ad9f0b3a3b17109312f5f2c

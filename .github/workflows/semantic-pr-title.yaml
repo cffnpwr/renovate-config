@@ -1,0 +1,20 @@
+name: Semantic PR title
+on:
+  pull_request_target: # zizmor: ignore[dangerous-triggers]
+    branches:
+      - main
+    types:
+      - opened
+      - edited
+      - reopened
+      - synchronize
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.number }}
+  cancel-in-progress: true
+
+permissions: {}
+
+jobs:
+  semantic-pr-title:
+    uses: cffnpwr/actions/.github/workflows/semantic-pr-title.yaml@7664d279a8733dfc9ad9f0b3a3b17109312f5f2c
