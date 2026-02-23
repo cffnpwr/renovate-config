@@ -12,7 +12,7 @@
     "@types/node": "24.10.13",
     "@typescript-eslint/parser": "8.56.0",
     "arktype": "2.1.29",
-    "eslint": "9.39.2",
+    "eslint": "9.39.3",
     "globals": "17.3.0",
     "re2": "1.23.3",
     "renovate": "43.25.11",
