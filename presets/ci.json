@@ -11,17 +11,6 @@
       ],
       "commitMessagePrefix": "chore(ci):",
       "groupName": "CI dependencies (non-major)"
-    },
-    {
-      "matchManagers": [
-        "ci"
-      ],
-      "matchPackageNames": [
-        "cffnpwr/*"
-      ],
-      "groupName": null,
-      "schedule": "* * * * *", // Every minute
-      "minimumReleaseAge": null
     }
   ]
 }
