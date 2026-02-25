@@ -14,6 +14,16 @@
   "semanticCommits": "enabled",
   "separateMajorMinor": true,
   "separateMultipleMajor": true,
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "cffnpwr/*"
+      ],
+      "groupName": null,
+      "schedule": "* * * * *", // Every minute
+      "minimumReleaseAge": null
+    }
+  ],
   "rebaseWhen": "automerging",
   "commitMessageAction": ":package: Update",
   "lockFileMaintenance": {

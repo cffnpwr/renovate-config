@@ -16,5 +16,8 @@
   },
   "pin": {
     "automerge": true
+  },
+  "digest": {
+    "automerge": true
   }
 }
