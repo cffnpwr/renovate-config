@@ -36,8 +36,8 @@ importers:
         specifier: 1.23.3
         version: 1.23.3
       renovate:
-        specifier: 43.65.0
-        version: 43.65.0(typanion@3.14.0)
+        specifier: 43.71.0
+        version: 43.71.0(typanion@3.14.0)
       tsx:
         specifier: 4.21.0
         version: 4.21.0
@@ -635,12 +635,6 @@ packages:
     peerDependencies:
       '@opentelemetry/api': '>=1.0.0 <1.10.0'
 
-  '@opentelemetry/core@2.5.1':
-    resolution: {integrity: sha512-Dwlc+3HAZqpgTYq0MUyZABjFkcrKTePwuiFVLjahGD8cx3enqihmpAmdgNFO1R4m/sIe5afjJrA25Prqy4NXlA==}
-    engines: {node: ^18.19.0 || >=20.6.0}
-    peerDependencies:
-      '@opentelemetry/api': '>=1.0.0 <1.10.0'
-
   '@opentelemetry/core@2.6.0':
     resolution: {integrity: sha512-HLM1v2cbZ4TgYN6KEOj+Bbj8rAKriOdkF9Ed3tG25FoprSiQl7kYc+RRT6fUZGOvx0oMi5U67GoFdT+XUn8zEg==}
     engines: {node: ^18.19.0 || >=20.6.0}
@@ -880,8 +874,8 @@ packages:
     resolution: {integrity: sha512-dSbrkSS9/NfNwhOgQ0rpKA9KNiKSFhgK707Wi+oX8SZLqvu8dvsVuzORbKOYq5eX4nSiwrHApWisecw0cZhjVQ==}
     engines: {node: ^20.9.0 || ^22.11.0 || ^24, pnpm: ^10.0.0}
 
-  '@renovatebot/pgp@1.3.3':
-    resolution: {integrity: sha512-xjZm2Tdq0+1skdtsytzgxF/3Rse8y1aMwS29SPQCSW/2K1WT1Kf3X209FiFRt4ilNT6d+DVDXyxmy9Z9dDLaQw==}
+  '@renovatebot/pgp@1.3.4':
+    resolution: {integrity: sha512-8kpBO48AjOOW0g/Pxo2qqUTsizKMUHFHUkHl8rw2eD0YZULosVxt22NS8PPHHfZ58Opm/aggCAJLHa9yXlHjVA==}
     engines: {node: ^22.11.0 || >=24.10.0, pnpm: ^10.0.0}
 
   '@renovatebot/ruby-semver@4.1.2':
@@ -3500,8 +3494,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.65.0:
-    resolution: {integrity: sha512-T6Zwljxw37Rdbnb+3iDJWMOxTUUNOk2+T7qTtrS6yJwHF6d4pi6N4hYpEajTF2YffjCaMT7vDrZuPPdwzXx4mw==}
+  renovate@43.71.0:
+    resolution: {integrity: sha512-dhbq6Ors2v8EXm8HuE+occ7huSe2fI2aZrydFC8ZuNO5CEnRXd1i0NSZMkHH5yUjzPwRzbYr1+QDqYP8lc+QCw==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -5348,11 +5342,6 @@ snapshots:
     dependencies:
       '@opentelemetry/api': 1.9.0
 
-  '@opentelemetry/core@2.5.1(@opentelemetry/api@1.9.0)':
-    dependencies:
-      '@opentelemetry/api': 1.9.0
-      '@opentelemetry/semantic-conventions': 1.40.0
-
   '@opentelemetry/core@2.6.0(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
@@ -5426,21 +5415,21 @@ snapshots:
   '@opentelemetry/resource-detector-aws@2.13.0(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
-      '@opentelemetry/core': 2.5.1(@opentelemetry/api@1.9.0)
+      '@opentelemetry/core': 2.6.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/resources': 2.6.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/semantic-conventions': 1.40.0
 
   '@opentelemetry/resource-detector-azure@0.21.0(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
-      '@opentelemetry/core': 2.5.1(@opentelemetry/api@1.9.0)
+      '@opentelemetry/core': 2.6.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/resources': 2.6.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/semantic-conventions': 1.40.0
 
   '@opentelemetry/resource-detector-gcp@0.48.0(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
-      '@opentelemetry/core': 2.5.1(@opentelemetry/api@1.9.0)
+      '@opentelemetry/core': 2.6.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/resources': 2.6.0(@opentelemetry/api@1.9.0)
       gcp-metadata: 8.1.2
     transitivePeerDependencies:
@@ -5624,7 +5613,7 @@ snapshots:
 
   '@renovatebot/pep440@4.2.2': {}
 
-  '@renovatebot/pgp@1.3.3': {}
+  '@renovatebot/pgp@1.3.4': {}
 
   '@renovatebot/ruby-semver@4.1.2': {}
 
@@ -8955,7 +8944,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.65.0(typanion@3.14.0):
+  renovate@43.71.0(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1000.0
       '@aws-sdk/client-ec2': 3.1000.0
@@ -8989,7 +8978,7 @@ snapshots:
       '@renovatebot/good-enough-parser': 1.2.0
       '@renovatebot/osv-offline': 2.2.1
       '@renovatebot/pep440': 4.2.2
-      '@renovatebot/pgp': 1.3.3
+      '@renovatebot/pgp': 1.3.4
       '@renovatebot/ruby-semver': 4.1.2
       '@sindresorhus/is': 7.2.0
       '@yarnpkg/core': 4.5.0(typanion@3.14.0)
