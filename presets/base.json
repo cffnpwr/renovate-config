@@ -22,6 +22,26 @@
       "groupName": null,
       "schedule": "* * * * *", // Every minute
       "minimumReleaseAge": null
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "addLabels": ["major"]
+    },
+    {
+      "matchUpdateTypes": ["minor"],
+      "addLabels": ["minor"]
+    },
+    {
+      "matchUpdateTypes": ["patch"],
+      "addLabels": ["patch"]
+    },
+    {
+      "matchUpdateTypes": ["pin"],
+      "addLabels": ["pin"]
+    },
+    {
+      "matchUpdateTypes": ["digest"],
+      "addLabels": ["digest"]
     }
   ],
   "rebaseWhen": "automerging",
