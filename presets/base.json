@@ -7,22 +7,11 @@
     ":disableRateLimiting",
     ":pinAllExceptPeerDependencies"
   ],
-  "labels": [
-    "renovate",
-    "dependencies"
-  ],
+  "labels": ["renovate", "dependencies"],
   "semanticCommits": "enabled",
   "separateMajorMinor": true,
   "separateMultipleMajor": true,
   "packageRules": [
-    {
-      "matchPackageNames": [
-        "cffnpwr/*"
-      ],
-      "groupName": null,
-      "schedule": "* * * * *", // Every minute
-      "minimumReleaseAge": null
-    },
     {
       "matchUpdateTypes": ["major"],
       "addLabels": ["major"]

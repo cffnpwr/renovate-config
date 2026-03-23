@@ -5,9 +5,7 @@
   },
   "packageRules": [
     {
-      "matchManagers": [
-        "nix"
-      ],
+      "matchManagers": ["nix"],
       "commitMessagePrefix": "chore(flake):"
     }
   ]

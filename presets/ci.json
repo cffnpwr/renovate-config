@@ -2,13 +2,8 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "matchManagers": [
-        "ci"
-      ],
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
+      "matchManagers": ["ci"],
+      "matchUpdateTypes": ["minor", "patch"],
       "commitMessagePrefix": "chore(ci):",
       "groupName": "CI dependencies (non-major)"
     }
