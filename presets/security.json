@@ -12,5 +12,14 @@
     "vulnerabilityFixStrategy": "lowest",
     "semanticCommitType": "fix",
     "commitMessageAction": ":lock: Fix"
-  }
+  },
+  "packageRules": [
+    {
+      // Ignore minimumReleaseAge for own packages
+      "matchPackageNames": ["cffnpwr/*", "@cffnpwr/*"],
+      "groupName": null,
+      "schedule": "* * * * *", // Every minute
+      "minimumReleaseAge": null
+    }
+  ]
 }
