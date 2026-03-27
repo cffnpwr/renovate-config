@@ -6,6 +6,7 @@
     "local>cffnpwr/renovate-config//presets/ci.json",
     "local>cffnpwr/renovate-config//presets/golang.json",
     "local>cffnpwr/renovate-config//presets/nixFlake.json",
+    "local>cffnpwr/renovate-config//presets/rust.json",
     "local>cffnpwr/renovate-config//presets/security.json"
   ]
 }
