@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@cffnpwr/eslint-config": "1.2.0",
-    "@types/node": "24.12.0",
+    "@types/node": "24.12.2",
     "@typescript-eslint/parser": "8.58.0",
     "arktype": "2.2.0",
     "eslint": "9.39.4",
