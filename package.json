@@ -13,7 +13,7 @@
     "@typescript-eslint/parser": "8.58.1",
     "arktype": "2.2.0",
     "eslint": "9.39.4",
-    "globals": "17.4.0",
+    "globals": "17.5.0",
     "re2": "1.24.0",
     "renovate": "43.110.14",
     "tsx": "4.21.0"
