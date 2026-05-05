@@ -2,8 +2,6 @@ minimumReleaseAge: 4320
 
 minimumReleaseAgeExclude:
   - "@cffnpwr/*"
-  # Temporary: allow ajv@6.14.0 before 72h release age (remove after 2026-02-23)
-  - ajv
 
 onlyBuiltDependencies:
   - better-sqlite3
