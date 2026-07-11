@@ -1,0 +1,5 @@
+[tools]
+node = "24.18.0"
+pnpm = "10.34.4"
+yamlfmt = "0.21.0"
+"aqua:numtide/treefmt" = "2.5.0"
