@@ -1,0 +1,4 @@
+[install]
+optional = false
+minimumReleaseAge = 259200
+minimumReleaseAgeExcludes = ["@cffnpwr/eslint-config", "@cffnpwr/tsconfig"]

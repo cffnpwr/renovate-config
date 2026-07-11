@@ -1,5 +1,4 @@
 [tools]
-node = "24.18.0"
-pnpm = "10.34.4"
+bun = "1.3.14"
 yamlfmt = "0.21.0"
 "aqua:numtide/treefmt" = "2.5.0"

@@ -38,7 +38,7 @@ const main = async () => {
     }
   }
 
-  execSync(`pnpm exec renovate-config-validator --strict ${targetFiles.join(" ")}`, {
+  execSync(`bunx --bun renovate-config-validator --strict ${targetFiles.join(" ")}`, {
     stdio: "inherit",
   });
 };

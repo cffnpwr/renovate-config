@@ -1,5 +1,5 @@
 [global]
-excludes = [".git/**", ".serena/**", "result/**"]
+excludes = [".git/**", ".serena/**", "result/**", "**/node_modules/**"]
 
 [formatter.yaml]
 command = "yamlfmt"
