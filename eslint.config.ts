@@ -10,7 +10,8 @@ export default defineConfig([
     files,
     languageOptions: {
       globals: {
-        ...globals.node,
+        ...globals.nodeBuiltin,
+        ...globals.bunBuiltin,
       },
       parser: tsEslintParser,
       parserOptions: {
