@@ -21,7 +21,7 @@
     "@typescript-eslint/parser": "8.63.0",
     "arktype": "2.2.3",
     "eslint": "10.3.0",
-    "globals": "17.6.0",
+    "globals": "17.7.0",
     "renovate": "43.150.0"
   }
 }
