@@ -1,0 +1,18 @@
+name: commitlint
+on:
+  pull_request:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow_ref }}-${{ github.event.number }}
+  cancel-in-progress: true
+
+permissions: {}
+
+jobs:
+  commitlint:
+    uses: cffnpwr/actions/.github/workflows/commitlint.yaml@8c50ed3d1d5b4b7a113385add28e75cd229add0d # main
+    permissions:
+      contents: read
+      actions: read
