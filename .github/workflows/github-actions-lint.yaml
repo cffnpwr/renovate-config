@@ -17,6 +17,6 @@ permissions: {}
 
 jobs:
   lint:
-    uses: cffnpwr/actions/.github/workflows/github-actions-lint.yaml@8e449128ae4f5b5bae3786ea93749991ebe33ae8 # main
+    uses: cffnpwr/actions/.github/workflows/github-actions-lint.yaml@ff21f94ddad852793d4ef2088103a11ffc386477 # main
     permissions:
       contents: read
