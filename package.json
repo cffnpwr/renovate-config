@@ -22,6 +22,6 @@
     "arktype": "2.2.3",
     "eslint": "10.8.1",
     "globals": "17.11.0",
-    "renovate": "44.17.1"
+    "renovate": "44.27.0"
   }
 }
