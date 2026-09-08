@@ -20,7 +20,7 @@
     "@types/bun": "1.4.0",
     "@typescript-eslint/parser": "8.69.0",
     "arktype": "2.2.3",
-    "eslint": "10.9.1",
+    "eslint": "10.10.0",
     "globals": "17.12.0",
     "renovate": "44.61.3"
   }
