@@ -19,7 +19,7 @@
     "@cffnpwr/tsconfig": "1.0.0",
     "@types/bun": "1.4.3",
     "@typescript-eslint/parser": "8.72.0",
-    "arktype": "2.2.8",
+    "arktype": "2.2.9",
     "eslint": "10.13.0",
     "globals": "17.13.0",
     "renovate": "44.171.1"
