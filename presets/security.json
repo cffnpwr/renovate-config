@@ -16,7 +16,7 @@
   "packageRules": [
     {
       // Ignore minimumReleaseAge for own packages
-      "matchPackageNames": ["cffnpwr/*", "@cffnpwr/*"],
+      "matchPackageNames": ["cffnpwr/*", "@cffnpwr/*", "ghcr.io/cffnpwr/**"],
       "groupName": null,
       "schedule": "* * * * *", // Every minute
       "minimumReleaseAge": null
