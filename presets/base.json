@@ -8,6 +8,7 @@
     ":pinAllExceptPeerDependencies"
   ],
   "labels": ["renovate", "dependencies"],
+  "stopUpdatingLabel": "renovate:stop-updating",
   "semanticCommits": "enabled",
   "separateMajorMinor": true,
   "separateMultipleMajor": true,
