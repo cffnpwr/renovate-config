@@ -29,7 +29,7 @@
       "commitMessagePrefix": "chore(rust):",
       "commitMessageTopic": "Rust toolchain",
       "groupName": "Rust toolchain",
-      "addLabels": ["rust-toolchain"]
+      "addLabels": ["renovate:rust-toolchain"]
     }
   ]
 }

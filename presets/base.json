@@ -8,29 +8,30 @@
     ":pinAllExceptPeerDependencies"
   ],
   "labels": ["renovate", "dependencies"],
+  "stopUpdatingLabel": "renovate:stop-updating",
   "semanticCommits": "enabled",
   "separateMajorMinor": true,
   "separateMultipleMajor": true,
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
-      "addLabels": ["major"]
+      "addLabels": ["renovate:major"]
     },
     {
       "matchUpdateTypes": ["minor"],
-      "addLabels": ["minor"]
+      "addLabels": ["renovate:minor"]
     },
     {
       "matchUpdateTypes": ["patch"],
-      "addLabels": ["patch"]
+      "addLabels": ["renovate:patch"]
     },
     {
       "matchUpdateTypes": ["pin"],
-      "addLabels": ["pin"]
+      "addLabels": ["renovate:pin"]
     },
     {
       "matchUpdateTypes": ["digest"],
-      "addLabels": ["digest"]
+      "addLabels": ["renovate:digest"]
     }
   ],
   "rebaseWhen": "automerging",
