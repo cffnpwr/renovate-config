@@ -15,7 +15,7 @@
     "postcss": ">=8.5.10, <9.0.0"
   },
   "devDependencies": {
-    "@cffnpwr/eslint-config": "2.0.1",
+    "@cffnpwr/eslint-config": "2.1.0",
     "@cffnpwr/tsconfig": "1.0.0",
     "@types/bun": "1.4.4",
     "@typescript-eslint/parser": "8.72.1",
