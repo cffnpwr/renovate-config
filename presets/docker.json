@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchManagers": ["dockerfile", "kubernetes", "docker-compose"],
+      "matchDatasources": ["docker"],
+      "matchDepNames": ["/^docker\\.io\\/library\\//"],
+      "overrideDepName": "{{{replace '^docker[.]io/library/' '' depName}}}"
+    }
+  ]
+}
