@@ -4,6 +4,11 @@
     {
       "matchManagers": ["gomod"],
       "matchDepNames": ["go"],
+      "rangeStrategy": "bump"
+    },
+    {
+      "matchManagers": ["gomod"],
+      "matchDepNames": ["go"],
       "matchUpdateTypes": ["patch"],
       "groupName": "Go version (patch)",
       "automerge": true
@@ -11,6 +16,13 @@
     {
       "matchManagers": ["mise"],
       "matchDepNames": ["go"],
+      "matchUpdateTypes": ["patch"],
+      "groupName": "Go version (patch)",
+      "automerge": true
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["/^(?:(?:docker\\.io|index\\.docker\\.io)\\/)?(?:library\\/)?golang$/"],
       "matchUpdateTypes": ["patch"],
       "groupName": "Go version (patch)",
       "automerge": true
@@ -18,13 +30,20 @@
     {
       "matchManagers": ["gomod"],
       "matchDepNames": ["go"],
-      "rangeStrategy": "bump",
+      "matchUpdateTypes": ["minor"],
       "groupName": "Go version (minor)",
       "automerge": false
     },
     {
       "matchManagers": ["mise"],
       "matchDepNames": ["go"],
+      "matchUpdateTypes": ["minor"],
+      "groupName": "Go version (minor)",
+      "automerge": false
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["/^(?:(?:docker\\.io|index\\.docker\\.io)\\/)?(?:library\\/)?golang$/"],
       "matchUpdateTypes": ["minor"],
       "groupName": "Go version (minor)",
       "automerge": false
