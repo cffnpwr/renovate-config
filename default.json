@@ -1,14 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "local>cffnpwr/renovate-config//presets/automerge.json",
-    "local>cffnpwr/renovate-config//presets/base.json",
-    "local>cffnpwr/renovate-config//presets/ci.json",
-    "local>cffnpwr/renovate-config//presets/docker.json",
-    "local>cffnpwr/renovate-config//presets/golang.json",
-    "local>cffnpwr/renovate-config//presets/mise.json",
-    "local>cffnpwr/renovate-config//presets/nixFlake.json",
-    "local>cffnpwr/renovate-config//presets/rust.json",
-    "local>cffnpwr/renovate-config//presets/security.json"
+    "./presets/automerge.json",
+    "./presets/base.json",
+    "./presets/ci.json",
+    "./presets/docker.json",
+    "./presets/golang.json",
+    "./presets/mise.json",
+    "./presets/nixFlake.json",
+    "./presets/rust.json",
+    "./presets/security.json"
   ]
 }
